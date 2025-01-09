@@ -55,11 +55,11 @@ For a quick demonstration of the plugin in action, check out this video:
 
 ### 1. Progress Bar and Pie Chart in Admin User Details Section
 
-![Admin User Details Section Screenshot](https://raw.githubusercontent.com/sanjoydas123/wordpress-course-create/main/admin-progress-screenshot.png)
+![Admin User Details Section Screenshot](https://raw.githubusercontent.com/sanjoydas123/wordpress-lessons-watch-time/main/admin-progress-screenshot.png)
 
 ### 2. Frontend Progress Data
 
-![Frontend Progress Data Screenshot](https://raw.githubusercontent.com/sanjoydas123/wordpress-course-create/main/frontend-progress-screenshot.png)
+![Frontend Progress Data Screenshot](https://raw.githubusercontent.com/sanjoydas123/wordpress-lessons-watch-time/main/frontend-progress-screenshot.png)
 
 ## Support
 
