@@ -1,0 +1,165 @@
+/* accordion css */
+.skd_front_wList_tab ul.tab-navigation {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 0px;
+    flex-flow: wrap;
+    /* padding-left: 20px; */
+    /* background: #fff; */
+    border-radius: 10px 10px 0px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.tab-container.skd_front_wList_tab {
+    margin-top: 30px;
+}
+
+.skd_front_wList_tab ul.tab-navigation li {
+    margin: 0;
+}
+
+
+.skd_front_wList_tab ul.tab-navigation li a {
+    /* border: 1px solid #353535; */
+    padding: 19px 20px;
+    box-shadow: 5px 4px 0px 0px transparent;
+    text-decoration: none;
+    color: #353535;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    background: #ccc;
+    position: relative;
+}
+
+.skd_front_wList_tab ul.tab-navigation li a.active::after {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background: #fff;
+}
+
+.skd_front_wList_tab ul.tab-navigation li a.active {
+    background: #fff;
+    border-left: 1px solid #353535;
+    border-top: 1px solid #353535;
+    border-right: 1px solid #353535;
+}
+
+.skd-accordion .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.skd_front_wList_tab .tab-content {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #353535;
+}
+
+.skd-accordion .accordion-item {
+    border: 1px solid #353535;
+    border-radius: 10px;
+}
+
+.skd-accordion .accordion-header {
+    margin: 0;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #353535;
+}
+
+
+
+.skd-accordion .accordion-content {
+    padding: 0 25px 25px;
+}
+
+.skd-accordion .subpost-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #353535;
+}
+
+.skd-accordion .subpost-table th {
+    text-align: left;
+    padding: 15px 0;
+}
+
+.completionOuter h3 {
+    margin: 30px 0;
+    color: #353535;
+}
+
+.completionOuter .completionLessonBox {
+    border: 1px solid #353535;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 0px 0px #353535;
+}
+
+.completionOuter .completion {
+    display: flex;
+    align-items: flex-start;
+}
+
+.completionOuter .completionPieChartOuter {
+    padding-left: 40px;
+}
+
+/* accordion css */
+
+
+/* table css */
+
+table thead:first-child tr:first-child th {
+    border-block-start: 1px solid hsla(0, 0%, 50.2%, .5019607843);
+    text-align: center;
+    padding: 8px;
+}
+
+/* table css */
+
+/* loading spinner css */
+.lwt-checkbox-container {
+    position: relative;
+    /* Ensure spinner is positioned correctly */
+}
+
+.checkbox-loading-spinner {
+    position: absolute;
+    top: 15%;
+    /* right: 10px; */
+    /* Adjust to fit the checkbox layout */
+    width: 20px;
+    height: 20px;
+    border: 10px solid #ccc;
+    border-top: 10px solid #000;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* loading spinner css */
